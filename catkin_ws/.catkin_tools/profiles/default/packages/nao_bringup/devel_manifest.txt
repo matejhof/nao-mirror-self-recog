@@ -1,5 +1,0 @@
-nao_robot/nao_bringup
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_bringup/cmake.lock /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/./cmake.lock
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_bringup/lib/pkgconfig/nao_bringup.pc /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_bringup.pc
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_bringup/share/nao_bringup/cmake/nao_bringupConfig.cmake /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_bringup/cmake/nao_bringupConfig.cmake
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_bringup/share/nao_bringup/cmake/nao_bringupConfig-version.cmake /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_bringup/cmake/nao_bringupConfig-version.cmake

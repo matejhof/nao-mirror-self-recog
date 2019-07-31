@@ -1,6 +1,0 @@
-nao_robot/nao_apps
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/cmake.lock /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/./cmake.lock
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/lib/pkgconfig/nao_apps.pc /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_apps.pc
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/lib/python2.7/dist-packages/nao_apps/__init__.py /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/python2.7/dist-packages/nao_apps/__init__.py
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/share/nao_apps/cmake/nao_appsConfig.cmake /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_apps/cmake/nao_appsConfig.cmake
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/share/nao_apps/cmake/nao_appsConfig-version.cmake /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_apps/cmake/nao_appsConfig-version.cmake

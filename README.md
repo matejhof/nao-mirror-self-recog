@@ -13,6 +13,8 @@ After installing required software (Gazebo9 ROS melodic, SDK simulator and Naoqi
 6. Go to misc
 7. Launch gazebo world with Nao in it: bash launch-naoqi-highres.sh
 
+**changes to nao_skin.xacro** - For both versions of nao (highres and lowres) go to nao_skin.xacro and all the way down to specification of controllers and plugins and in <plugin name="contact_plugin_torso_casing" filename="/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/libcontact.so" /> change filename to path in your computer. Without this change the artificial skin will not work.
+
 After these steps Gazebo Gui with spawned Nao should pop up, simulation should be paused and Nao will have only Torso, arms and head with camera for mirroring right infront of him (white box).
 
 # Changes to Nao

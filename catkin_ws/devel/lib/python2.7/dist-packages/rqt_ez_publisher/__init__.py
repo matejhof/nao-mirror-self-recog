@@ -1,1 +1,0 @@
-/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/rqt_ez_publisher/lib/python2.7/dist-packages/rqt_ez_publisher/__init__.py

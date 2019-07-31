@@ -1,8 +1,0 @@
-prefix=/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/my_executables
-
-Name: my_executables
-Description: Description of my_executables
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/my_executables/lib 
-Requires: 

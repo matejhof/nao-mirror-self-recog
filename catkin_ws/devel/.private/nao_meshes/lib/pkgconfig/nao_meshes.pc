@@ -1,8 +1,0 @@
-prefix=/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_meshes
-
-Name: nao_meshes
-Description: Description of nao_meshes
-Version: 0.1.11
-Cflags: 
-Libs: -L/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_meshes/lib 
-Requires: 

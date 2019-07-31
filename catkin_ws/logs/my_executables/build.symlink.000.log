@@ -1,0 +1,3 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/my_executables.pc
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/my_executables/cmake/my_executablesConfig.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/my_executables/cmake/my_executablesConfig-version.cmake

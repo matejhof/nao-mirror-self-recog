@@ -1,0 +1,3 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_gazebo_plugin.pc
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_gazebo_plugin/cmake/nao_gazebo_pluginConfig.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_gazebo_plugin/cmake/nao_gazebo_pluginConfig-version.cmake

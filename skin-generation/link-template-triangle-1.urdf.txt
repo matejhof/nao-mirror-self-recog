@@ -1,0 +1,93 @@
+        <link name="COLLISION_NAME_wrap" />
+        <link name="COLLISION_NAME_in">
+            <visual name="COLLISION_NAME0_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 0.006533 0" />
+            </visual>
+            <collision name="COLLISION_NAME0">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 0.006533 0" />
+            </collision>
+            <visual name="COLLISION_NAME1_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 0.0098 0" />
+            </visual>
+            <collision name="COLLISION_NAME1">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 0.0098 0" />
+            </collision>
+            <visual name="COLLISION_NAME2_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 0.003267 0" />
+            </visual>
+            <collision name="COLLISION_NAME2">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 0.003267 0" />
+            </collision>
+            <visual name="COLLISION_NAME3_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 0 0" />
+            </visual>
+            <collision name="COLLISION_NAME3">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 0 0" />
+            </collision>
+            <visual name="COLLISION_NAME4_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 -0.003267 0" />
+            </visual>
+            <collision name="COLLISION_NAME4">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 -0.003267 0" />
+            </collision>
+            <visual name="COLLISION_NAME5_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 -0.0098 0" />
+            </visual>
+            <collision name="COLLISION_NAME5">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="-0.00566 -0.0098 0" />
+            </collision>
+            <visual name="COLLISION_NAME6_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 -0.006533 0" />
+            </visual>
+            <collision name="COLLISION_NAME6">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0 -0.006533 0" />
+            </collision>
+            <visual name="COLLISION_NAME7_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.00566 -0.003267 0" />
+            </visual>
+            <collision name="COLLISION_NAME7">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.00566 -0.003267 0" />
+            </collision>
+            <visual name="COLLISION_NAME8_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.011317 0 0" />
+            </visual>
+            <collision name="COLLISION_NAME8">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.011317 0 0" />
+            </collision>
+            <visual name="COLLISION_NAME9_visual">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.00566 0.003627 0" />
+            </visual>
+            <collision name="COLLISION_NAME9">
+                <geometry><cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" /></geometry>
+                <origin xyz="0.00566 0.003627 0" />
+            </collision>
+        </link>
+        <joint name="COLLISION_NAME_joint1" type="fixed">
+            <origin rpy="SENSOR_RPY" xyz="SENSOR_XYZ" />
+            <parent link="LINK_NAME" />
+            <child link="COLLISION_NAME_wrap" />
+        </joint>
+        <joint name="COLLISION_NAME_joint2" type="fixed">
+            <origin rpy="0 0 YAW_CORRECTION" />
+            <parent link="COLLISION_NAME_wrap" />
+            <child link="COLLISION_NAME_in" />
+        </joint>

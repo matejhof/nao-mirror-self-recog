@@ -1,0 +1,1 @@
+/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/lib/python2.7/dist-packages/Project/__init__.py

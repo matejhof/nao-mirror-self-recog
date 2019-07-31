@@ -1,0 +1,12 @@
+        <visual name="COLLISION_NAME_visual">
+            <geometry>
+                <cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" />
+            </geometry>
+            <origin rpy="SENSOR_RPY" xyz="SENSOR_XYZ" />
+        </visual>
+        <collision name="COLLISION_NAME">
+            <geometry>
+                <cylinder length="SENSOR_LENGTH" radius="SENSOR_RADIUS" />
+            </geometry>
+            <origin rpy="SENSOR_RPY" xyz="SENSOR_XYZ" />
+        </collision>

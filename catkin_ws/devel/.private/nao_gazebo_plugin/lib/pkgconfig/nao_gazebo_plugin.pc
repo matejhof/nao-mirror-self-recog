@@ -1,0 +1,8 @@
+prefix=/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_gazebo_plugin
+
+Name: nao_gazebo_plugin
+Description: Description of nao_gazebo_plugin
+Version: 0.0.6
+Cflags: 
+Libs: -L/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_gazebo_plugin/lib 
+Requires: 

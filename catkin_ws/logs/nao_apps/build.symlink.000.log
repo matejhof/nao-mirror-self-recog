@@ -1,0 +1,4 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_apps.pc
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/python2.7/dist-packages/nao_apps/__init__.py
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_apps/cmake/nao_appsConfig.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_apps/cmake/nao_appsConfig-version.cmake

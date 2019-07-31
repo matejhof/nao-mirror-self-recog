@@ -1,0 +1,5 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_meshes.pc
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_meshes/cmake/nao_meshesConfig-version.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_meshes/cmake/nao_meshesConfig.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/tmp/installer.run
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/tmp/tmp/installer.run

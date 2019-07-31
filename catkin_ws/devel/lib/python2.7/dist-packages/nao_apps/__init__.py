@@ -1,0 +1,1 @@
+/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_apps/lib/python2.7/dist-packages/nao_apps/__init__.py

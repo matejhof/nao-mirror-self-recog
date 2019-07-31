@@ -1,0 +1,1 @@
+/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_control/share/nao_control/cmake/nao_controlConfig-version.cmake

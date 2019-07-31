@@ -1,0 +1,4 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/nao_description/base_footprint
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/pkgconfig/nao_description.pc
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_description/cmake/nao_descriptionConfig-version.cmake
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/nao_description/cmake/nao_descriptionConfig.cmake

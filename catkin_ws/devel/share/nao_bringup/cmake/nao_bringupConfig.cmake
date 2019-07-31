@@ -1,0 +1,1 @@
+/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_bringup/share/nao_bringup/cmake/nao_bringupConfig.cmake

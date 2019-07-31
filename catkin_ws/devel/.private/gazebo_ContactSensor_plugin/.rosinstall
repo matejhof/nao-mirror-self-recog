@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/setup.sh

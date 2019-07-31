@@ -1,0 +1,8 @@
+prefix=/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_description
+
+Name: nao_description
+Description: Description of nao_description
+Version: 0.5.15
+Cflags: 
+Libs: -L/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_description/lib 
+Requires: 

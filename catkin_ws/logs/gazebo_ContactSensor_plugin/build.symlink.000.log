@@ -1,0 +1,4 @@
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/libcontact.so
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/python2.7/dist-packages/Project/__init__.py
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/roseus/ros/Project/manifest.l
+Symlinking /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/share/Project/cmake/Project-msg-paths.cmake

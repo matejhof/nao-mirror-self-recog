@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target base_footprint[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/base_footprint.dir/src/base_footprint.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/.private/nao_description/lib/nao_description/base_footprint[0m
+[100%] Built target base_footprint

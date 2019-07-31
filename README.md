@@ -1,7 +1,7 @@
 Tutorial for working with Nao in gazebo 9 and ROS melodic for self-recognision in mirror
 ------
 ------
-After installing needed software (Gazebo9 ROS melodic, SDK simulator and Naoqi python SDK (softbankrobotics - Matej can give you username and password) along with [Boost1.55.0](https://stackoverflow.com/questions/38705150/naoqi-library-to-python-sdk-in-ubuntu) -  clone this repo. in your home directory.
+After installing required software (Gazebo9 ROS melodic, SDK simulator and Naoqi python SDK (softbankrobotics - Matej can give you username and password) along with [Boost1.55.0](https://stackoverflow.com/questions/38705150/naoqi-library-to-python-sdk-in-ubuntu) -  clone this repo. in your home directory.
 
 1. Install catkin tools - [this site](https://catkin-tools.readthedocs.io/en/latest/installing.html)
 2. Install explauto library - library for controlling nao (will not build without it due to dependencies) - [this site](http://flowersteam.github.io/explauto/installation.html) ,

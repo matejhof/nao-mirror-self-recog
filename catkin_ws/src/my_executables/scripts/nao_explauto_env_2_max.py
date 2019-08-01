@@ -94,13 +94,15 @@ class NaoEnvironment(Environment):
 			plt.scatter(self.x_values_plot,self.y_values_plot,color = 'r')
 			plt.draw()
 			plt.pause(0.0001)
-			plt.savefig('all_points.png')
+			#plt.savefig('all_points.png')
 			return 0
 		else:
 			plt.scatter([point[0]],[point[1]],color = color)
 			plt.draw()
 			plt.pause(0.0001)
-			plt.savefig('special_points.png')
+			if color == 'g':
+				pass
+				#raw_input('Press enter to continue')
 
 		return 0
 	
@@ -144,6 +146,8 @@ class NaoEnvironment(Environment):
         return bounds_min_max(joint_pos_ag, self.conf.m_mins, self.conf.m_maxs)
 
     def compute_sensori_effect(self, joint_pos_env):
+    	self.sensory_effect = None
+    	self.flag = False;
         nao_ml_set_pose(joint_pos_env, self.joints)
         self.ee.reset_stable()
         if self.use_reset:

@@ -146,22 +146,34 @@ explauto_env.use_reset = True
 
 
 for i in skin_map:
-	explauto_env.plot_point_in_skin([],'k')
+	#explauto_env.plot_point_in_skin([],'k')
 	observed = [0 for x in range(total_sensors)]
 	expected = [0 for x in range(total_sensors)]	
-	explauto_env.plot_point_in_skin(skin_map[i],'k')
-	k = int(i[0])
-	expected[k],expected[k+1]= 1,1
+	#explauto_env.plot_point_in_skin(skin_map[i],'k')
+	exp = i.split('_')
+	k = int(exp[0])
+	if k == 239:
+		expected[k] = 1
+	else:
+		expected[k],expected[k+1]= 1,1
    	s_g = skin_map[i]
    	m = model.inverse_prediction(s_g)
    	s = explauto_env.compute_sensori_effect(m)
-   	if s != [None,None]:
+   	if s != [None,None] and s != ['1',None]:
    		if s[1] != None:
    			s,point = s[0],s[1]
-   			explauto_env.plot_point_in_skin(point,'g')
+   			#explauto_env.plot_point_in_skin(point,'g')
+   		else:
+   			continue
    			
-   		k = int(s[0])
-   		observed[k],observed[k+1]= 1,1
+   		obs = s.split('_')
+   		k = int(obs[0])
+   		print 'This is k: ',k
+   		if k == 239:
+   			observed[k] = 1;
+   		else:
+   			observed[k],observed[k+1]= 1,1
+   		print 'This is the output: ',s,' and this is expected: ',i
    		observed = ''.join(str(x) for x in observed)
    		expected = ''.join(str(x) for x in expected)
    		explauto_env.capture_state(expected,observed)

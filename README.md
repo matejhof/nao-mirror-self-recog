@@ -1,26 +1,26 @@
-Tutorial for working with Nao in gazebo 9 and ROS melodic for self-recognision in mirror
+Tutorial for working with Nao in gazebo 9 and ROS melodic for self-recognision in mirror. For additional info you can emai me to outravoj@fel.cvut.cz
 ------
 ------
-After installing required software (Gazebo9 ROS melodic, SDK simulator and Naoqi python SDK (softbankrobotics - Matej can give you username and password) along with [Boost1.55.0](https://stackoverflow.com/questions/38705150/naoqi-library-to-python-sdk-in-ubuntu) -  clone this repo. in your home directory.
+After installing required software (Gazebo9 ROS melodic, SDK simulator and Naoqi python SDK (softbankrobotics - Matej can give you username and password) along with [Boost1.55.0](https://stackoverflow.com/questions/38705150/naoqi-library-to-python-sdk-in-ubuntu), clone this repository to your computer.
 
 1. Install catkin tools - [this site](https://catkin-tools.readthedocs.io/en/latest/installing.html)
-2. Install explauto library - library for controlling nao (will not build without it due to dependencies) - [this site](http://flowersteam.github.io/explauto/installation.html) ,
+2. Install explauto library - library for controlling nao with learned inverse models (will not build without it due to dependencies) - [this site](http://flowersteam.github.io/explauto/installation.html) 
 3. go to catkin_ws
 4. Build workspace - catkin build
 5. Source - needs to be done whenever you open new terminal for launching gazebo and ROS or you can add it to ~/.bashrc once:
 	source /opt/ros/melodic/setup.sh
 	source ~/code-nao-simulation/gazebo9/catkin_ws/devel/setup.bash
-6. Go to misc
+6. Go to misc/
 7. Launch gazebo world with Nao in it: bash launch-naoqi-highres.sh
 
-**changes to nao_skin.xacro** - For both versions of nao (highres and lowres) go to nao_skin.xacro and all the way down to specification of controllers and plugins and in <plugin name="contact_plugin_torso_casing" filename="/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/libcontact.so" /> change filename to path in your computer. Without this change the artificial skin will not work.
+**changes to nao_skin.xacro** - For both versions of nao (highres and lowres) go to nao_skin.xacro and all the way down to specification of controllers and plugins and in <plugin name="contact_plugin_torso_casing" filename="/home/vojta/code-nao-simulation/gazebo9/catkin_ws/devel/lib/libcontact.so" /> change filename to path to library libcontact.so in your computer. Without this change the artificial skin will not work.
 
 After these steps Gazebo Gui with spawned Nao should pop up, simulation should be paused and Nao will have only Torso, arms and head with camera for mirroring right infront of him (white box).
 
 # Changes to Nao
-1. Removed fingers because of simulation issues
-2. Legs removed - for our purposes were redundant
-3. Added camera for creating a 'mirror'
+1. Removed fingers due to simulation issues with them, fingers are replaced with one huge finger with no joints.
+2. Legs removed - they were redundant for our purposes
+3. Added camera for creating a 'mirror'.
 4. Changed color of casing
 5. Fixed torso in space so Nao doesn't fall to the ground and remains stable
 
@@ -36,11 +36,11 @@ Changes to Nao can be done throughout these files, mainly in nao_robot.xacro, fo
 Controllers for legs are included in **nao_control_position.launch** and are **not included** in **nao_control_position_skin.launch**. 
 
 # Controlling Nao during the simulation
-This is done through python scripts, one of the simplest examples catkin_ws/src/my_executables/scripts/camera_listener.py. Once the simulation is runnning, unpause the simulation, open new terminal and run command: "rosrun my_executables camera_listener.py"   
+This is done through python scripts, one of the simplest example is catkin_ws/src/my_executables/scripts/camera_listener.py which subscribes to camera topic and flips its image along the y axis so it seems like a mirror image. Once the simulation is runnning, unpause the simulation, open new terminal and run command: "rosrun my_executables camera_listener.py" . It should capture images and save them.  
 
 Sensor data and joints commands are communicated through ROS topics that a node can subscribe to (for data) or publish to (for controlling the robot). List of ros topics can be displayed by using command in terminal "rostopic list". Any Topic that is listed can be published and subscribed to.
 
-More complex example of manipulation of robot is head_babbling.py in the same folder.
+More complex example of manipulation of robot is head_babbling.py in the same folder - this example includes loading trained explauto inverse models and works with Naoenvironment. 
 
 
 

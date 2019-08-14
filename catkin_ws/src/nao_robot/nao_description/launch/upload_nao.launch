@@ -1,0 +1,8 @@
+<launch>
+  <arg name="version" default="V40" />
+  <arg name="contact_torso" default="true" />
+  <arg name="contact_head" default="true" />
+  <arg name="contact_left_arm" default="true" />
+  <arg name="contact_right_arm" default="true" />
+  <param name="robot_description" command="$(find xacro)/xacro $(find nao_description)/urdf/nao$(arg version)_generated_urdf/nao_robot.xacro contact_torso:=$(arg contact_torso) contact_head:=$(arg contact_head) contact_left_arm:=$(arg contact_left_arm) contact_right_arm:=$(arg contact_right_arm)" />
+</launch>

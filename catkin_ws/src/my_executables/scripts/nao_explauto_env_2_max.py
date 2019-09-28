@@ -54,7 +54,7 @@ class NaoEnvironment(Environment):
 		
         self.flag = False
 		
-       	self.fil = open('/home/vojta/code-nao-simulation/gazebo9/catkin_ws/src/my_executables/scripts/output.txt','w')
+       	self.fil = open('/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src/my_executables/scripts/output.txt','w')
 
         # Some simulation parameters
         self.time_delay = 0.3
@@ -137,7 +137,7 @@ class NaoEnvironment(Environment):
     def capture_state(self,expected,observed):
     	#print 'Current state of joint is: ',self.joints_prop
     	picture_name = 'Picture_' + str(self.i) + '.png'
-    	cv2.imwrite('/home/vojta/code-nao-simulation/gazebo9/catkin_ws/src/my_executables/scripts/pictures/'+picture_name,self.current_image)
+    	cv2.imwrite('/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src/my_executables/scripts/pictures/'+picture_name,self.current_image)
     	self.fil.write(str(self.joints_prop) + '	'+expected + '	'+observed + '	'+'pictures/'+picture_name )
     	self.fil.write('\n')
     	self.i +=1

@@ -1,0 +1,8 @@
+prefix=/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_meshes
+
+Name: nao_meshes
+Description: Description of nao_meshes
+Version: 0.1.11
+Cflags: 
+Libs: -L/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_meshes/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_gazebo_plugin/share/nao_gazebo_plugin/cmake/nao_gazebo_pluginConfig.cmake

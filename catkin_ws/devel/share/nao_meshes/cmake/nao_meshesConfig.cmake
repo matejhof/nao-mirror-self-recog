@@ -1,0 +1,1 @@
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_meshes/share/nao_meshes/cmake/nao_meshesConfig.cmake

@@ -1,0 +1,8 @@
+prefix=/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/install
+
+Name: nao_gazebo_plugin
+Description: Description of nao_gazebo_plugin
+Version: 0.0.6
+Cflags: 
+Libs: -L/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/install/lib 
+Requires: 

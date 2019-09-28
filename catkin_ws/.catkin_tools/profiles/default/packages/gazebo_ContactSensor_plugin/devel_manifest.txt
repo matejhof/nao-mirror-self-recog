@@ -1,0 +1,6 @@
+gazebo_ContactSensor_plugin
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/cmake.lock /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/./cmake.lock
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/lib/libcontact.so /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/lib/libcontact.so
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/lib/python2.7/dist-packages/Project/__init__.py /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/lib/python2.7/dist-packages/Project/__init__.py
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/share/roseus/ros/Project/manifest.l /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/share/roseus/ros/Project/manifest.l
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/share/Project/cmake/Project-msg-paths.cmake /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/share/Project/cmake/Project-msg-paths.cmake

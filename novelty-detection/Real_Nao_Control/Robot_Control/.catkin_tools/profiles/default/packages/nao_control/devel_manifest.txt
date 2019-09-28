@@ -1,0 +1,5 @@
+nao_control
+/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/.private/nao_control/cmake.lock /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/./cmake.lock
+/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/.private/nao_control/lib/pkgconfig/nao_control.pc /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/lib/pkgconfig/nao_control.pc
+/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/.private/nao_control/share/nao_control/cmake/nao_controlConfig-version.cmake /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/share/nao_control/cmake/nao_controlConfig-version.cmake
+/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/.private/nao_control/share/nao_control/cmake/nao_controlConfig.cmake /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel/share/nao_control/cmake/nao_controlConfig.cmake

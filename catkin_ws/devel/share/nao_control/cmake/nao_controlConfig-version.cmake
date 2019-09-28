@@ -1,0 +1,1 @@
+/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_control/share/nao_control/cmake/nao_controlConfig-version.cmake

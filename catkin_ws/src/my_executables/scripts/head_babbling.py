@@ -97,7 +97,7 @@ joints = [
 
 # Skin to coordinates mapping
 skin_map = {}
-map_fh = open('/home/vojta/code-nao-simulation/gazebo9/catkin_ws/src/my_executables/scripts/coordinate-maps/highres-head.txt', 'r')
+map_fh = open('/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src/my_executables/scripts/coordinate-maps/highres-head.txt', 'r')
 for i in range(total_sensors):
     k = str(i) + '_' + str(i + 1)
     skin_map[k] = [float(x) for x in map_fh.readline().strip().split(" ")]
@@ -124,7 +124,7 @@ explauto_env = NaoEnvironment(joint_min, joint_max, [], [], joints, ros_topic, e
 #model.mode = 'exploit'
 
 # Reset output data file
-fh = open('output/data.txt', 'w')
+fh = open('/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src/my_executables/scripts/output/data.txt', 'w')
 fh.close()
 
 # Initialization complete
@@ -134,7 +134,7 @@ print("NAO Skin ML: Initialization complete")
 
 
 # Load saved model from disk
-filename = '/home/vojta/code-nao-simulation/gazebo9/catkin_ws/src/my_executables/scripts/highres-models/model-1000.sav'
+filename = '/home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src/my_executables/scripts/highres-models/model-1000.sav'
 fh = open(filename, 'rb')
 model = pickle.load(fh)
 fh.close()

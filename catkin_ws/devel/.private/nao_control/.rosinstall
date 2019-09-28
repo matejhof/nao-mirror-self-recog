@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/nao_control/setup.sh

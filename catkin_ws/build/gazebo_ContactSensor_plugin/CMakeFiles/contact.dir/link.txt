@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11  -shared -Wl,-soname,libcontact.so -o /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel/.private/gazebo_ContactSensor_plugin/lib/libcontact.so CMakeFiles/contact.dir/ContactPlugin.cc.o  -L/usr/lib/x86_64-linux-gnu/gazebo-9/plugins 

@@ -1,0 +1,6 @@
+devel_space: /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/devel
+install: false
+install_space: /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/install
+profile: default
+source_space: /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws/src
+workspace: /home/deepself/Shengzhi_Project/nao-mirror-self-recog/catkin_ws

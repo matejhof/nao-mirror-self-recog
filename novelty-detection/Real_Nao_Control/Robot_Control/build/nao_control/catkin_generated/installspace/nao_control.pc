@@ -1,0 +1,8 @@
+prefix=/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/install
+
+Name: nao_control
+Description: Description of nao_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/install/lib 
+Requires: 

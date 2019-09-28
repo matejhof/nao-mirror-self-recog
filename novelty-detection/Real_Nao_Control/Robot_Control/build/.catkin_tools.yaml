@@ -1,0 +1,6 @@
+devel_space: /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/devel
+install: false
+install_space: /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/install
+profile: default
+source_space: /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control/src
+workspace: /home/deepself/Shengzhi_Project/self-recognize/Owner/Real_Nao_Control/Robot_Control

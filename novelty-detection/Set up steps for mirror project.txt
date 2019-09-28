@@ -1,0 +1,25 @@
+﻿Set up for mirror self-recognition project
+
+1. Ubuntu install
+
+2. Cuda+cudnn install: Follow this web (assume that you have the Ubuntu 16.04): https://mc.ai/installing-cuda-and-cudnn-on-ubuntu-16-04-lts/
+
+3. Pytorch(GPU) install: (It depends on whether you want to install it in virtual environment. If you want to install there, please activate the environment firstly and then install pytorch. We assume the python version is 3.5).
+-pip3 install https://download.pytorch.org/whl/cu80/torch-1.0.1.post2-cp35-cp35m-linux_x86_64.whl (I highlight the 1.0.1, which is the version of torch. Actually in my case I changed to 0.3.0 (or 0.4.1 I can not remember ;)), because 1.0.1 doesnt fit my GPU)
+-If you want to install the torchvision (a library includes some dataset like Mnist), try to also install the old one, like 0.3.x or 0.2.x, because directly using “pip3 install torchvision” will overlap the old one with newest version of torch and lead to be unsuitable again.
+
+4. Install Ros: For Ubuntu 16.04 you can only install Ros version “kinetic”: http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+5. Gazebo 9 install: First need to remove the default Gazebo 7 (if you have installed kinetic) by following three commands:
+-sudo apt-get remove ros-kinetic-gazebo*
+-sudo apt-get remove libgazebo*
+-sudo apt-get remove gazebo*
+
+Then install Gazebo9: 
+-curl -sSL http://get.gazebosim.org | sh
+-gazebo
+
+6. Naoqi install: http://wiki.ros.org/nao/Tutorials/Installation
+
+7. Follow Matej’s github guide and that is all. 
+
